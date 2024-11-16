@@ -1,18 +1,6 @@
-/* Styling for h1 */
-h1 {
-    font-size: 3.4rem;
-    color: red; /* Fixed missing semicolon */
-}
-
-/* Styling for h2 */
-h2 {
-    font-size: 2.8rem;
-    color: red; /* Fixed missing semicolon */
-}
 
 footer {
     text-align: center;
-    padding: 150px; /* Reduced padding for footer */
     font-size: 0.9em;
     background-image: url("teemo.jpg");
     background-repeat: no-repeat;
@@ -31,7 +19,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fefefe;  /* Corrected comment syntax */
+    background-color: #030303;  /* Corrected comment syntax */
     color: #ffffff;
     min-height: 100vh;
     display: flex;
@@ -56,6 +44,7 @@ header {
 
 nav {
     display: flex;
+    width:100%;
     justify-content: center ;
     justify-items: right;
     align-items: center;
@@ -64,7 +53,7 @@ nav {
 
 /* Button Styles */
 button {
-    background-color: #4CAF50;
+    background-color: #45a049;
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
@@ -81,7 +70,7 @@ button:hover {
 
 /* Anchor Link Styling */
 a {
-    color: rgb(0, 0, 0);
+    color: rgba(81, 255, 0, 0.566);
     font-size: 18px;
     margin-top: 10px;
     text-align: center;
@@ -96,4 +85,20 @@ a:first-child {
 
 a:last-child {
     font-style: italic;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background-image: url("teemo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    
+}
+.footer-container {
+    height: 100px;
 }
