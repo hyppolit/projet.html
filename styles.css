@@ -29,6 +29,48 @@ body {
 main {
     flex: 1 0 100vh; /* Fix to ensure correct flex behavior */
 }
+.tujoue {
+    button  {
+        font-size: 1.5rem;
+        color: #fafafa;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #fafafa;
+        background: #252525;
+        box-shadow: 3px 3px #fafafa;
+        cursor: pointer;
+        margin: 35px 20PX;
+    }
+     button:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+      }
+     
+      p{
+        display: flex;
+        justify-content: center;
+        display: grid;
+        align-items: center ;   
+      }
+}
+
+h1 {
+    text-align: center;     
+}
+
+p{
+    text-align: center;
+}
+video{
+    margin: 100px;
+}
+
+.etats2ET3{
+    H2{
+        text-align: center;
+    }
+}
 
 /* Header */
 header {
